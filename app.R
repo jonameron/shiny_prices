@@ -13,7 +13,6 @@ library(shinyjs)
 library(shinyWidgets)
 library(shinythemes)
 
-
 #Generate table of prices ...
 
 
