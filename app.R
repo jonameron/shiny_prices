@@ -44,11 +44,10 @@ ui <- fluidPage(
   theme = shinytheme("journal"),
   navbarPage("Navigation",
              tabPanel("Stats",
-                  titlePanel("Bitcoin price comparison (experimental, no real data)",windowTitle = "Bitcoin - Preisvergleich" ),
+                  titlePanel(paste("Bitcoin price comparison (experimental, no real data), update from: ", Sys.time()),windowTitle = "Bitcoin - Preisvergleich" ),
                   mainPanel(
-                    tableOutput("table"), width = 12,
-                    h2(textoutput("text"))
-                    )
+                    tableOutput("table"), width = 12
+                  )
                 ),
         tabPanel("more",
                  verbatimTextOutput("more")

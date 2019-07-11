@@ -5,8 +5,8 @@ account: jonameron
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1024505
-bundleId: 2221909
+bundleId: 2222209
 url: https://jonameron.shinyapps.io/shiny_prices/
-when: 1562853041.54868
+when: 1562858330.08257
 asMultiple: FALSE
 asStatic: FALSE
