@@ -46,13 +46,14 @@ ui <- fluidPage(
              tabPanel("Stats",
                   titlePanel("Bitcoin price comparison (experimental, no real data)",windowTitle = "Bitcoin - Preisvergleich" ),
                   mainPanel(
-                    tableOutput("table"), width = 12
-                  )
+                    tableOutput("table"), width = 12,
+                    h2(textoutput("text"))
+                    )
                 ),
         tabPanel("more",
                  verbatimTextOutput("more")
           ),
-        tags$footer("Built with RStudio shiny", align = "center")
+        tags$footer("Built with RStudio shiny, data source: shrimpy.io", align = "center")
         )
       )
           server <- function(input, output, session) {
