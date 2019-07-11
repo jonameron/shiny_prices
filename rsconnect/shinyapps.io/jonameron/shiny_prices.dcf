@@ -1,0 +1,12 @@
+name: shiny_prices
+title: shiny_prices
+username:
+account: jonameron
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1024505
+bundleId: 2221909
+url: https://jonameron.shinyapps.io/shiny_prices/
+when: 1562853041.54868
+asMultiple: FALSE
+asStatic: FALSE
