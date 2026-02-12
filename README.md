@@ -1,3 +1,5 @@
+### DECOMISSIONED
+
 # shiny_prices
 shiny app playing around with bitcoin prices. This app can be tested at http://www.crypto-kaufen.com. 
 
